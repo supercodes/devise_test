@@ -1,11 +1,11 @@
 Test2::Application.routes.draw do
-  get "profiles/index"
+  #get "profiles/index"
 
-  get "profiles/new"
+  #get "profiles/new"
 
-  get "profile/index"
+  #get "profile/index"
 
-  get "profile/new"
+  #get "profile/new"
 
   devise_for :users do
     resources :profiles
